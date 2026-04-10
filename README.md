@@ -5,6 +5,14 @@
 
 
 
+
+
+
+
+
+
+
+
 repeat wait() until game:IsLoaded()
 
 local wait = task.wait
@@ -809,4 +817,5 @@ task.spawn(function()
             end
         end
     end
-end
+end)
+
